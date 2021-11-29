@@ -1,0 +1,18 @@
+.card-body:hover{
+box-shadow: 5px solid gray;
+
+}
+.btn:hover{
+    background-color: tomato;
+}
+.img {
+    pointer-events: none;
+    position: relative;
+    transform: translateY(20px) scale(1.15);
+    transform-origin: 50% bottom;
+    transition: transform 300ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+.card-body:hover .img {
+    transform: translateY(0) scale(1.2);
+  }
+  

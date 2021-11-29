@@ -1,0 +1,5 @@
+.navlink:hover{
+    background-color: black;
+    color: white !important;
+    text-decoration-color: brown;
+}

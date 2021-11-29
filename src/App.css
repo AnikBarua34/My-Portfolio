@@ -1,3 +1,7 @@
+body{
+  background-image: url('./images/cover.jpg')! important ; 
+  background-size:cover;
+}
 .App {
   text-align: center;
 }

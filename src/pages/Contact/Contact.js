@@ -1,4 +1,6 @@
-import React from 'react';
+import React,{useEffect} from 'react';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 import emailjs from 'emailjs-com';
 import { Form, Input, TextArea, Button } from 'semantic-ui-react';
 import Swal from 'sweetalert2';
@@ -13,6 +15,13 @@ const TEMPLATE_ID = "template_bfdzy5a";
 const USER_ID = "user_JtB1jbXk5tgTsBB6FuwWQ";
 
 const Contact = () => {
+  useEffect(()=>{
+        AOS.init({
+            offset:100,
+            duration:2000,
+            easing:'ease',
+        });
+    })
     const handleOnSubmit = (e) => {
         e.preventDefault();
         emailjs.sendForm(SERVICE_ID, TEMPLATE_ID, e.target, USER_ID)
@@ -36,7 +45,10 @@ const Contact = () => {
         <div className="contact-form " id="contact">
             <h2>Contact with me</h2>
             <div className="fw-bold"> <hr /> </div>
-            <Form className="bg-secondary" onSubmit={handleOnSubmit}>
+
+
+            <div data-aos="zoom-in">
+<Form className="bg-secondary" onSubmit={handleOnSubmit}>
         <Form.Field 
           id='form-input-control-email'
           control={Input}
@@ -67,6 +79,8 @@ const Contact = () => {
         />
         <Button type='submit' color='green'>Submit</Button>
       </Form>
+            </div>
+            
         </div>
     );
 };

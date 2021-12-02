@@ -10,12 +10,15 @@ const Header = () => {
         <div>
            <Navbar bg="info" variant="dark" fixed="top" collapseOnSelect expand="lg">
     <Container>
-    <Navbar.Brand className="fw-bold text-dark" href="#home">Anik Barua Turjoy's Portfolio</Navbar.Brand>
+    <Navbar.Brand className="fw-bold text-dark" href="#home"><img style={{width:30}} src="https://img.icons8.com/doodle/48/000000/shoyo_hinata.png" alt=""/>Anik Barua Turjoy's Portfolio</Navbar.Brand>
     <Navbar.Toggle />
     <Navbar.Collapse className="justify-content-end">
-    <Nav.Link className="navlink fw-bold text-dark"  as={HashLink} to="#home">Home</Nav.Link>
-      <Nav.Link  className="navlink fw-bold text-dark"  as={HashLink} to="#projects">My Projects</Nav.Link>
-      <Nav.Link  className="navlink fw-bold text-dark"  as={HashLink} to="#contact">Contact Me</Nav.Link>
+    <Nav.Link className="navlink fw-bold text-dark"  as={HashLink} to="/home#home">Home</Nav.Link>
+      <Nav.Link  className="navlink fw-bold text-dark"  as={HashLink} to="/home#projects">My Projects</Nav.Link>
+      <Nav.Link  className="navlink fw-bold text-dark"  as={HashLink} to="/home#blogs">My Blogs</Nav.Link>
+      <Nav.Link  className="navlink fw-bold text-dark"  as={HashLink} to="/home#aboutMe">About Me</Nav.Link>
+      <Nav.Link  className="navlink fw-bold text-dark"  as={HashLink} to="/home#contact">Contact Me</Nav.Link>
+      
     </Navbar.Collapse >
     </Container>
   </Navbar>

@@ -1,6 +1,10 @@
-body{
+/* body{
   background-image: url('./images/cover.jpg')! important ; 
   background-size:cover;
+  background-repeat: no-repeat !important;
+} */
+body{
+  background-color: rgba(5, 146, 139, 0.815) !important;
 }
 .App {
   text-align: center;

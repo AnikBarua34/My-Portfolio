@@ -1,0 +1,53 @@
+[
+    {   "id":"1",
+        "name":"Niche Website",
+        "cover":"https://i.ibb.co/VCzfHKr/cover-pic.png",
+        
+        "img1":"https://i.ibb.co/7NHxvyj/Crazy-Bikers-login.png",
+        "img2":"https://i.ibb.co/2tKYXkp/Crazy-Bikers-admin-panel.png",
+        "img3":"https://i.ibb.co/NVXqXcF/Crazy-Bikers-user-panel.png",
+        "img4":"https://i.ibb.co/wWjL7gV/Crazy-Bikers-full-page.png",
+        "liveLink":"https://crazy-bikers-shop.web.app/",
+        "githubClientLink":"https://github.com/AnikBarua34/Niche-Website-Ass-12-",
+        "githubServerLink":"https://github.com/AnikBarua34/Niche-Website-Ass-12-server",
+        "description1":"●React ●JavaScript ●Firebase ●Mongo DB ●Heroku",
+        "description2":"●Secure Authentication",
+        "description3":"●No Fake JSON data",
+        "description4":"●Protected Admin Route + Normal User + User Route",
+        "description5":"●Short Description: Unregister users can can only viewservices,Users can view+book services+See Their Bookedservices and can give a review it will show in homepage Admin can add services+Delete Users Bookings+Deleteproducts"
+    },
+    {   "id":"2",
+        "name":"Travelling Website",
+        "cover":"https://i.ibb.co/5Y7ZhzY/cover.png",
+
+        "img1":"https://i.ibb.co/DMy1nLC/login.png",
+        "img2":"https://i.ibb.co/hLbkLbF/admin.png",
+        "img3":"https://i.ibb.co/t86c6RD/user.png",
+        "img4":"https://i.ibb.co/mXzRDb5/full-page.png",
+        "liveLink":"https://mind-fresher-99961.web.app/",
+        "githubClientLink":"https://github.com/AnikBarua34/Traveling_Website_Ass-11",
+        "githubServerLink":"https://github.com/AnikBarua34/Traveling_Website_Ass-11--Server",
+        "description1":"●React ●JavaScript ●Firebase ●MongoDB ●Heroku",
+        "description2":"●Secure Authentication",
+        "description3":"●No Fake JSON data",
+        "description4":"●Protected Route Registered User & Unregister User",
+        "description5":"●Short Description: Registered users can view+Bookservices+Can see their bookings also they can delete.Unregistered users can only view products."
+    },
+    {   "id":"3",
+        "name":"HealthCare Website",
+        "cover":"https://i.ibb.co/YPp1vRh/cover.png",
+
+        "img1":"https://i.ibb.co/sJ9SdvM/login.png",
+        "img2":"https://i.ibb.co/SfFWnpM/login-user.png",
+        "img3":"https://i.ibb.co/HHBgSRp/information.png",
+        "img4":"https://i.ibb.co/JsMhxjX/full-view.png",
+        "liveLink":"https://assignment-ten-bcb73.web.app/",
+        "githubClientLink":"https://github.com/AnikBarua34/Health-Care-Ass-10",
+        "githubServerLink":"https://github.com/AnikBarua34/Health-Care-Ass-10",
+        "description1":"●React ●JavaScript ●Firebase",
+        "description2":"●Secure Authentication",
+        "description3":"●Used Local JSON data",
+        "description4":"●Protected Route",
+        "description5":"●Short Description:Registered Users can view all products and can book a product but unregister user can only view"
+    }
+]
